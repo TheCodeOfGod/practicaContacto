@@ -1,0 +1,101 @@
+*{
+
+    background-color: rgb(24, 23, 23);
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: orange;
+}
+
+.formulario{
+    display: flex;
+    border: 2px solid;
+    margin: 37%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 20%;
+    padding: 40px;
+    border-radius: 40px;
+    padding: 50px;
+    overflow: hidden;
+}
+
+.formulario input{
+    border-radius: 6px;
+    border-color: aliceblue;
+}
+
+#nombre{
+    width: 170%;
+    height: 20px;
+    color: rgb(224, 197, 145);
+}
+
+#email{
+    width: 170%;
+    height: 20px;
+    background-color:rgb(24, 23, 23) ;
+    color: rgb(224, 197, 145);
+}
+
+h2 {
+    margin-bottom: 1px;
+    
+}
+
+#h2Nombre{
+    margin-top: 1px;
+}
+
+.formulario:hover{
+    color: orange;
+    box-shadow: 1px 1px 20px rgb(253, 187, 63);
+    transition: 1s;
+    border-radius: 50px;
+    
+}
+.formulario:not(hover){
+    transition: 1s;
+}
+
+input:hover{
+    color: orange;
+    transition: 1s;
+    box-shadow: 1px 1px 10px rgb(229, 227, 222);
+}
+
+input:not(:hover){
+    transition: 1s;
+}
+
+#descripcion{
+    width: 170%;
+    height: 100px;
+    color: rgb(224, 197, 145);
+}
+
+.formulario select{
+    width: 170%;
+    height: 30px;
+    color: rgb(224, 197, 145);
+    border-radius: 6px;
+    border-color: aliceblue;
+}
+
+#enviar{
+    width: 170%;
+    height: 30px;
+    color: rgb(224, 197, 145);
+    border-radius: 6px;
+    border-color: aliceblue;
+    size: 40px;
+}
+
+#enviar:hover{
+    background-color: orange;
+    color: white;
+    text-shadow: 1px 1px 10px black;
+}
